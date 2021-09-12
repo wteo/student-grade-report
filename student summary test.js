@@ -11,10 +11,10 @@ function getScores(student) {
     const total = score.reduce((total,currentVal) => (total + currentVal));
     const median = total / score.length;
     const grades = {
-        highest, // max : highest shorten to highest
-        lowest, // min : lowest shorten to lowest
-        total, // sum: total shorten to total
-        median // median: median shorten to median
+        highest,
+        lowest, 
+        total, 
+        median 
     }
     return grades;
 }
