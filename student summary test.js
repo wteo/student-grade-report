@@ -35,3 +35,6 @@ function summary(student) {
     console.log(getScores(student));
     console.log(pass(student));
 }
+
+
+console.log(summary(amy));
